@@ -3,7 +3,7 @@
 int main(void)
 {
     int value = getchar();
-    int res = putchar(value);
+    int putchar(value);
     printf("\n%d\n", res);
  
     return 0;
