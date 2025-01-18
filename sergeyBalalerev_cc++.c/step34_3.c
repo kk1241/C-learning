@@ -18,29 +18,12 @@ d) learning Python\n");
     {
     case 'A':
     case 'a':
-        menu_number = 1;
+        
         break;
-    case 'B':
-    case 'b':
-        menu_number = 2;
-        break;
-    case 'C':
-    case 'c':
-        menu_number = 3;
-        break;
-    case 'D':
-    case 'd':
-        menu_number = 4;
-        break;
+    
     default:
-        menu_number = -1;
         break;
     }
 
-
-    printf("%hd", menu_number);
-
-
-   __ASSERT_TESTS__ // макроопределение для тестирования (не убирать и должно идти непосредственно перед return 0)
     return 0;
 }
